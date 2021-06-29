@@ -10,3 +10,11 @@
 # 1234
 
 # TODO: your code here
+
+number = int(input("Введи число: "))
+variable = 0
+new_number = 0
+while variable < number:
+    new_number = new_number * 10 + 1 + variable
+    print(new_number)
+    variable += 1
