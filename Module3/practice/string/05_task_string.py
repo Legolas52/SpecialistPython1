@@ -6,3 +6,14 @@
 
 # TODO: your code here
 
+text = input("text: ")
+t = text.lower()
+t = t.replace(" ", "")
+t = t.replace(",", "")
+t = t.replace("?", "")
+t = t.replace("!", "")
+t = t.replace(".", "")
+if t == t[::-1]:
+    print("Перевертыш")
+else:
+    print("Не перевертыш")
