@@ -7,4 +7,5 @@
 item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "count": "10"}
 dollar_rate = 74.12
 
-# TODO: your code here
+dollar_price = float(item["price"]) * float(item["count"]) / dollar_rate
+print(f"Цена кроссовок {dollar_price:.2f} долларов")
